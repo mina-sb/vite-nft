@@ -1,14 +1,16 @@
 import { useState } from 'react'
-import MainNavigation from './shared/components/Navigation/MainNavigation'
+import MainHeader from './shared/components/Navigation/MainHeader'
 import Main from './shared/components/Main'
 import Bids from './shared/components/Bids'
+import CreateNFTSteps from './shared/components/CreateNFTSteps'
 
 function App() {
   return (
     <>
-     <MainNavigation />
+     <MainHeader />
      <Main />
      <Bids />
+     <CreateNFTSteps />
     </>
   )
 }
