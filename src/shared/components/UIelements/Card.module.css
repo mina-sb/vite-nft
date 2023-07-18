@@ -2,9 +2,7 @@
     position: relative;
     z-index: 1000; /* or absolute */
     left:0;
-
-    transition: left 0.7s; /** <- removed position **/
-    left: 0;
+    transition: left 0.7s; 
 }
 
 

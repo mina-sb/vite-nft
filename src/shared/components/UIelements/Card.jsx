@@ -10,7 +10,7 @@ import {item} from './Card.module.css'
 
 const Card = () => {
   return (
-    <div className={`${item}  mx-auto max-w-sm bg-white border  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700`}>
+    <div className={`${item}   bg-white border  border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700`}>
     <a href="#" className=' bg-white '>
       <div className="overflow-hidden mt-1.5 z-50 mx-1.5 rounded-md">
         <img
