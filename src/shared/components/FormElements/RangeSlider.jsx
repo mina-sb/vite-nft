@@ -1,14 +1,15 @@
 import React from 'react'
-import './RangeSlider.css'
 import MultiRangeSlider from "multi-range-slider-react";
+import './RangeSlider.css'
 
 const RangeSlider = () => {
     const inputHandler = (e) => {
         console.log(e.minValue);
         console.log(e.maxValue);
     };
+    
   return ( 
-    <MultiRangeSlider class="w-full" className="slider multi-range-slider" ruler="false" label="false"
+    <MultiRangeSlider  className="slider w-full multi-range-slider" ruler="false" label="false"
     min={10}
     max={500}
     step={5}
@@ -16,9 +17,7 @@ const RangeSlider = () => {
     maxValue={320}
     onInput={(e) => {
         inputHandler(e);
-    }}
-    
-></MultiRangeSlider>
+    }}></MultiRangeSlider>
   )
 }
 
