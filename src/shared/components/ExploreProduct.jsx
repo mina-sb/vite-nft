@@ -1,8 +1,6 @@
 import React from 'react'
 import Card from './UIelements/Card'
-import Filter from '../Filter'
-
-
+import Filter from './Filter'
 
 const ExploreProduct = () => {
   return (

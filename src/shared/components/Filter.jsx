@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import DropDown from './components/FormElements/DropDown'
-import RangeSlider from './components/FormElements/RangeSlider'
-import Button from './components/FormElements/Button'
+import DropDown from './FormElements/DropDown'
+import RangeSlider from './FormElements/RangeSlider'
+import Button from './FormElements/Button'
 import {FaFilter} from 'react-icons/fa'
 
 
