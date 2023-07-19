@@ -5,6 +5,7 @@ import Bids from './shared/components/Bids'
 import CreateNFTSteps from './shared/components/CreateNFTSteps'
 import NeweItems from './shared/components/NeweItems'
 import TopSeller from './shared/components/TopSeller'
+import ExploreProduct from './shared/components/ExploreProduct'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <CreateNFTSteps />
      <NeweItems />
      <TopSeller />
+     <ExploreProduct />
     </>
   )
 }
