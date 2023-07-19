@@ -1,6 +1,6 @@
 .item {
     position: relative;
-    z-index: 1000; /* or absolute */
+    z-index: 10; /* or absolute */
     left:0;
     transition: left 0.7s; 
 }
