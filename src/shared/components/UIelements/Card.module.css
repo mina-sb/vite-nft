@@ -1,22 +1,21 @@
 .item {
-    position: relative;
-    z-index: 10; /* or absolute */
-    left:0;
-    transition: left 0.7s; 
+  position: relative;
+  z-index: 10; /* or absolute */
+  left: 0;
+  transition: left 0.7s;
 }
 
-
 .item:hover::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0;
-    bottom: 0;
-    left:0;
-    width: 95%;
-    height: 100%;
-    border-radius: 8px;
-    background-image: linear-gradient(100deg, transparent, #0398ed);
-    z-index: -100;
-    transform: rotate(2deg) translateX(-9px) translateY(15px);
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  border-radius: 8px;
+  background-image: linear-gradient(100deg, transparent, #0398ed);
+  z-index: -100;
+  transform: rotate(2deg) translateX(-9px) translateY(15px);
 }
